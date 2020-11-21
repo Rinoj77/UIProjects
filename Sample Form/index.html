@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sample_form</title>
+    <link rel="stylesheet" href="styling.css">
+    
+</head>
+
+<body>
+    <div class="middle">
+        <h2> Create an account. It's Free and Relatively Easy!</h2>
+        <div class="line"> *All fields required*</div>
+        <div class="back">
+            <div class="forming">
+                <form>
+                    <div style="padding-bottom: 5px;">
+                        First name
+                        <input type="text" name="firstname" style="padding: 5px;" required*>
+                        <br>
+                    </div>
+                    <div>
+                        Last name
+                        <input type="text" name="lastname " style="padding: 5px;">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="back">
+            <div class="forming" style="position: relative;">
+                <form>
+                    <div style="padding-bottom: 5px;">
+                        User name
+                        <input type="text" name="User Name " style="padding-top: 6px;padding-bottom: 6px;margin-left: 10px;">
+                        <br>
+                    </div>
+                    <div style="padding-bottom: 5px;">
+                        Password
+                        <input type="text" name="Password " style="padding-top: 6px;padding-bottom: 6px;margin-left: 10px;">
+                        <br>
+                    </div>
+                    <div style="padding-bottom: 5px;">
+                        Confirm Password
+                        <input type="text" name="Confirm Password " style="padding-top: 6px;padding-bottom: 6px;margin-left: 10px;">
+                    </div>
+                </form>
+                <div class="user">
+                    User Name in Public
+                </div>
+            </div>
+        </div>
+        <div class="back">
+            <div class="forming">
+                <form>
+                    <div style="padding-bottom: 5px;">
+                        Email Address
+                        <input type="text" name="User Name " style="padding-top: 6px;padding-bottom: 6px;margin-left: 10px;">
+                        <br>
+                    </div>
+                    <div style="padding-bottom: 5px;">
+                        Confirm Email Address
+                        <input type="text" name="Password " style="padding-top: 6px;padding-bottom: 6px;margin-left: 10px;">
+                        <br>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="back forming">
+            <div class="clearfix">
+                <div style="float:left;">Gender</div>
+                <div class="clearfix" style="float: left; padding-left: 10px;">
+                    <div style="float: left;">
+                        <label class="container gen">Male
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div style="float: left;">
+                        <label class="container gen">Female
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix" style="margin-bottom: 10px;">
+                <div style="float:left;">Birthdate</div>
+                <div style="float:left; margin-left: 10px;">
+                    <select style="margin-left: 10px;">
+                        <option value="Jan">January</option>
+                        <option value="Feb">February</option>
+                        <option value="Mar">March</option>
+                        <option value="Apr">April</option>
+                        <option value="May">May</option>
+                        <option value="Jun">June</option>
+                        <option value="Jul">July</option>
+                        <option value="Aug">August</option>
+                    </select>
+                </div>
+                <div style="float:left; margin-left: 10px;">
+                    <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                </div>
+                <div style="float:left; margin-left: 10px;">
+                    <select>
+                        <option value="y1">2001</option>
+                        <option value="y2">2002</option>
+                        <option value="y3">2003</option>
+                        <option value="y4">2004</option>
+                        <option value="y5">2005</option>
+                        <option value="y6">2006</option>
+                        <option value="y7">2007</option>
+                        <option value="y8">2008</option>
+                    </select>
+                </div>
+            </div>
+            <div class="clearfix" style="margin-bottom: 10px;">
+                <div style="float:left;">Country</div>
+                <div style="float:left; margin-left: 10px;">
+                    <select style="margin-left: 21px;">
+                        <option value="Jan">United States</option>
+                        <option value="Feb">Nepal</option>
+                        <option value="Mar">Netherlands</option>
+                        <option value="Apr">Spain</option>
+                        <option value="May">India</option>
+                        <option value="Jun">UK</option>
+                        <option value="Jul">Australia</option>
+                        <option value="Aug">SOuth Africa</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <form>
+                    <div style="padding-bottom: 5px;">
+                        Zip Code
+                        <input type="text" name="User Name " style="padding-top: 6px;padding-bottom: 6px;margin-left: 10px;">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <label class="container" style="margin-top: 10px;font-size: 16px;right: 10px;">Send me the newsletter people describe as "highly annoying"
+              <input type="checkbox" checked="checked">
+              <span class="checkboxx"></span>
+            </label>
+            <label class="container" style="margin-top: 10px;font-size: 16px;right: 10px;">I agree to the <a style="color: #4066dc;">Terms of Service</a> and <a style="color: #4066dc;">Privacy Policy</a>
+              <input type="checkbox" checked="checked">
+              <span class="checkboxx"></span>
+            </label>
+    </div>
+    <div style="text-align:right;">
+        <a  class="button" href="welcome.php" method="post"> 
+                  Register</a>
+        
+    </div>
+
+</body>
+
+</html>

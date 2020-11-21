@@ -1,0 +1,59 @@
+body
+{
+	background-color: #E6F2F7;
+}
+
+h2{
+	text-align: center;
+	font-family: sansui;
+	font-size: 25px;
+}
+@font-face {
+  font-family: sansui;
+  src: url(../JB/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: sans;
+  src: url(../JB/fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: ubuntu;
+  src: url(../JB/fonts/Ubuntu-Regular.ttf);
+}
+.center{
+	max-width: 960px;
+	margin:0;
+	width: 100%;
+}
+header{
+	background-color: #4d4d4d;
+	padding: 10px 2px 2px 10px;
+	margin: 0;
+	display: block;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.memory{
+	font-size: 22px;
+	color:#a5caca;
+	padding-left: 10px;
+	font-family: ubuntu;
+}
+.forms{
+	margin-left: 20px;
+	font-family:ubuntu;
+	padding-bottom: 35px;
+}
+
+.Names{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.sticky{
+	position: fixed;
+  top: 0;
+  width: 100%;
+}
